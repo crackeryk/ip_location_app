@@ -1,12 +1,13 @@
 # ip_location_app
-我来详细指导你如何在 Deno 上创建一个新项目并部署这个“显示 IP 和地理位置”的程序。以下是分步说明，包括创建项目、配置环境和部署到 Deno Deploy（Deno 的云平台）。我们会从本地开发开始，然后部署到线上。
+在 Deno 上创建一个新项目并部署这个“显示 IP 和地理位置”的程序。
+以下是分步说明，包括创建项目、配置环境和部署到 Deno Deploy（Deno 的云平台）。
 
 ---
 
 ### 第一步：在本地创建 Deno 项目
 
 #### 1. 创建项目文件夹
-在你的电脑上选择一个目录，创建一个新文件夹作为项目根目录。例如：
+创建一个新文件夹作为项目根目录。例如：
 ```bash
 mkdir ip-location-app
 cd ip-location-app
@@ -112,7 +113,7 @@ deno run --allow-net main.ts
 
 ### 第二步：部署到 Deno Deploy
 
-Deno Deploy 是一个免费的云平台，可以轻松部署 Deno 应用。我们将把这个项目部署上去，让它在线运行。
+Deno Deploy 是一个免费的云平台，可以轻松部署 Deno 应用。把这个项目部署上去，让它在线运行。
 
 #### 1. 准备工作
 - **注册 Deno Deploy**：访问 [deno.com/deploy](https://deno.com/deploy)，使用 GitHub 账号登录。
@@ -207,10 +208,9 @@ git push
 ---
 
 ### 完成！
-现在你的项目已经部署到 Deno 上！本地运行可以用来开发和调试，线上版本通过 Deno Deploy 提供服务。访问你的 Deno Deploy URL（例如 `https://ip-location-app-abc123.deno.dev`），你会看到类似：
+项目已经部署到 Deno 上！本地运行可以用来开发和调试，线上版本通过 Deno Deploy 提供服务。访问你的 Deno Deploy URL（例如 `https://ip-location-app-abc123.deno.dev`），你会看到类似：
 - IP 地址: 你的公网IP
 - 国家: 中国
 - 地区: 北京
 - 城市: 北京
 
-有任何问题或想进一步优化，随时问我！
